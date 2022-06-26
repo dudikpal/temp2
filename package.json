@@ -4,7 +4,6 @@
   "main": "",
   "scripts": {
     "install-client": "cd src/main/ui && npm install && npm run build",
-    "build-client": "ng build --proxy-config proxy.conf.json && cd ../../..",
-    "heroku-postbuild": "npm run install-client && build-client"
+    "heroku-postbuild": "npm run install-client"
   }
 }
