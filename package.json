@@ -1,0 +1,9 @@
+{
+  "name": "cccgame",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "install-client": "cd src/main/ui && npm install && npm run build && cd ../../..",
+    "heroku-postbuild": "npm run install-client"
+  }
+}
